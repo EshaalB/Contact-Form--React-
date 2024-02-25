@@ -1,0 +1,23 @@
+.navigation {
+  padding: 0 8px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+nav ul li:hover {
+  color: var(--purple);
+  transition: 0.3s ease-in-out;
+}
+.navigation img {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+}
